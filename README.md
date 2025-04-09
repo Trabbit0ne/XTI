@@ -13,8 +13,7 @@ This repository aims to educate developers and security professionals about XTI,
 - [Mitigation Strategies](#mitigation-strategies)
 - [Further Reading](#further-reading)
 - [Contributing](#contributing)
-- [License](#license)
-
+- 
 ## Examples
 Here are some scenarios where XTI can be exploited:
 1. **E-commerce Platforms**: Malicious titles in product listings can execute harmful scripts when users view the page.
