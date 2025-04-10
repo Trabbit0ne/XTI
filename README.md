@@ -3,7 +3,7 @@
 <img src="https://github.com/user-attachments/assets/b84daf4b-18dd-4580-965b-1930f81899fd" alt="image">
 
 ## Introduction
-Cross-Title Injection (XTI) is a web vulnerability that allows attackers to manipulate the content of a website by injecting malicious code into the titles of web pages. This can lead to unauthorized access, data breaches, and various security risks.
+Cross-Title Injection (XTI) is a technique that allows attackers to bypass XSS protections by injecting malicious scripts into the <title> tag of web pages. This method takes advantage of unvalidated user input, enabling the execution of harmful code during the page rendering process. XTI poses significant security risks, including phishing, session hijacking, and the spread of malware, underscoring the need for effective input sanitization and security measures to prevent such exploits.
 
 ## Overview
 This repository aims to educate developers and security professionals about XTI, its implications, and how to mitigate it effectively.
