@@ -39,22 +39,6 @@ Below are sample payloads that demonstrate XTI in action. These are for educatio
 
 > **Note**: Some browsers may sanitize the `<title>` tag contents more strictly than others. Testing across multiple engines is recommended.
 
-## Proof of Concept
-You can find a demonstration of a successful XTI attack in the following video or GIF:
-
-### 📽️ MP4 / GIF PoC
-> Embed your video or GIF here:
-```markdown
-![XTI PoC](https://yourdomain.com/xti-poc.gif)
-```
-Or:
-```html
-<video width="640" height="360" controls>
-  <source src="https://yourdomain.com/xti-demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-```
-
 ## Mitigation Strategies
 To protect against XTI vulnerabilities, consider the following strategies:
 - **Input Validation**: Ensure that all user input is sanitized and validated.
